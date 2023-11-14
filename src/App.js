@@ -8,7 +8,7 @@ import Detail from './page/Detail';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
     <main>
       <Routes>
         <Route path='/' element={<Main/>}/>
