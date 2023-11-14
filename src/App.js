@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './reset.css';
+import {BrowserRouter, Route, Routes } from "react-router-dom"
+import {axios} from "axios"
+import Main from './page/Main';
+import Detail from './page/Detail';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+    <main>
+      <Routes>
+        <Route path='/' element={<Main/>}/>
+        <Route path='/Detail/:category/:id' element={<Detail/>}/>
+      </Routes>
+    </main>
+    <footer>
+      <div>
+        <figure>
+          <img src='/image/soms_foot.png'/>
+        </figure>
+        <p>COPYRIGHT ⓒ 2023 LEEJIYOUNG. ALL RIGHTS RESERVED.</p>
+      </div>
+    </footer>
+    </BrowserRouter>
     </div>
   );
 }
