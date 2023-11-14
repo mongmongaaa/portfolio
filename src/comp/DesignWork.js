@@ -29,7 +29,7 @@ function DesignWork({activeCategory}) {
             <div className="grid-item" key={item.id}>
                 <Link to={`/Detail/${item.category}/${item.id}`}>
                 <div className="hover">
-              <img src={`/image/${item.thumbnail}`} />
+              <img src={`./image/${item.thumbnail}`} />
                 <p>{item.category}</p>
                 <p>{item.title}</p>
             </div>

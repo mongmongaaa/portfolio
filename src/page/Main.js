@@ -34,22 +34,22 @@ function Main() {
         <ul>
           <li>
             <ScrollLink to="section_1" smooth={true} duration={500}>
-              <img src="/image/ICON_yellow1_100x100.png" />
+              <img src="./image/ICON_yellow1_100x100.png" />
             </ScrollLink>
           </li>
           <li>
             <ScrollLink to="section_2" smooth={true} duration={500}>
-              <img src="/image/ICON_flower2_100x100.png" />
+              <img src="./image/ICON_flower2_100x100.png" />
             </ScrollLink>
           </li>
           <li>
             <ScrollLink to="section_3" smooth={true} duration={500}>
-              <img src="/image/ICON_green3_100x100.png" />
+              <img src="./image/ICON_green3_100x100.png" />
             </ScrollLink>
           </li>
           <li>
             <ScrollLink to="section_4" smooth={true} duration={500}>
-              <img src="/image/ICON_sun4_100x100.png" />
+              <img src="./image/ICON_sun4_100x100.png" />
             </ScrollLink>
           </li>
         </ul>
@@ -58,7 +58,7 @@ function Main() {
         <div id="section_1" className={`section_1 ${isMouseOver ? "bg_active" : ""}`}>
           <div className="inner">
             <figure>
-              <img src="/image/main_spot_1.gif" />
+              <img src="./image/main_spot_1.gif" />
               <figcaption>
                 <div>Portfolio</div>
                 <p>Lee ji young</p>
@@ -120,8 +120,8 @@ function Main() {
                 <img
                   src={
                     isMouseOver
-                      ? "/image/main_spot_2_1.gif"
-                      : "/image/main_spot_2.gif"
+                      ? "./image/main_spot_2_1.gif"
+                      : "./image/main_spot_2.gif"
                   }
                 />
               </div>
@@ -136,7 +136,7 @@ function Main() {
               <div className="contents">
                 {/* 큰 네모  */}
                 <div className="spot_img">
-                  <img src="/image/main_spot_3.png" />
+                  <img src="./image/main_spot_3.png" />
                 </div>
                 <div className="tt">
                   {/*  // 글자만 들어잇는 네모  */}
@@ -161,25 +161,25 @@ function Main() {
                         <li>
                           <ul>
                             <li>
-                              <img src="/image/skills/Logo_1.png" />
+                              <img src="./image/skills/Logo_1.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Logo_2.png" />
+                              <img src="./image/skills/Logo_2.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Logo_3.png" />
+                              <img src="./image/skills/Logo_3.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Logo_4.png" />
+                              <img src="./image/skills/Logo_4.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Logo_5.png" />
+                              <img src="./image/skills/Logo_5.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Logo_6.png" />
+                              <img src="./image/skills/Logo_6.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Logo_7.png" />
+                              <img src="./image/skills/Logo_7.png" />
                             </li>
                           </ul>
                         </li>
@@ -189,28 +189,28 @@ function Main() {
                         <li>
                           <ul>
                             <li>
-                              <img src="/image/skills/Html_1.png" />
+                              <img src="./image/skills/Html_1.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Html_2.png" />
+                              <img src="./image/skills/Html_2.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Html_3.png" />
+                              <img src="./image/skills/Html_3.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Html_4.png" />
+                              <img src="./image/skills/Html_4.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Html_5.png" />
+                              <img src="./image/skills/Html_5.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Html_6.png" />
+                              <img src="./image/skills/Html_6.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Html_7.png" />
+                              <img src="./image/skills/Html_7.png" />
                             </li>
                             <li>
-                              <img src="/image/skills/Html_8.png" />
+                              <img src="./image/skills/Html_8.png" />
                             </li>
                           </ul>
                         </li>
@@ -249,8 +249,8 @@ function Main() {
                     <img
                       src={
                         activeCategory == "ALL"
-                          ? "/image/folder_2.png"
-                          : "/image/folder_1.png"
+                          ? "./image/folder_2.png"
+                          : "./image/folder_1.png"
                       }
                     />
                     <figcaption>ALL</figcaption>
@@ -264,8 +264,8 @@ function Main() {
                     <img
                       src={
                         activeCategory == "UIUX"
-                          ? "/image/folder_2.png"
-                          : "/image/folder_1.png"
+                          ? "./image/folder_2.png"
+                          : "./image/folder_1.png"
                       }
                     />
                     <figcaption>UIUX</figcaption>
@@ -281,8 +281,8 @@ function Main() {
                     <img
                       src={
                         activeCategory == "BRANDING.EDITING"
-                          ? "/image/folder_2.png"
-                          : "/image/folder_1.png"
+                          ? "./image/folder_2.png"
+                          : "./image/folder_1.png"
                       }
                     />
                     <figcaption>
@@ -300,8 +300,8 @@ function Main() {
                     <img
                       src={
                         activeCategory == "PACKAGE.CHARACTER"
-                          ? "/image/folder_2.png"
-                          : "/image/folder_1.png"
+                          ? "./image/folder_2.png"
+                          : "./image/folder_1.png"
                       }
                     />
                     <figcaption>

@@ -19,7 +19,7 @@ function Detail() {
             <div className="box">
               <div className="right">
                 <div className="thum_img">
-                  <img src={`/image/${selectedItem.thumbnail}`} />
+                  <img src={`./image/${selectedItem.thumbnail}`} />
                   {selectedItem.giturl && <p>git 바로가기</p>}
                 </div>
                 {/* {selectedItem.giturl && <p>git 바로가기</p>} */}
@@ -37,7 +37,7 @@ function Detail() {
                     {selectedItem.tool.split(",").map((toolImage, index) => (
                       <img
                         key={index}
-                        src={`/image/skills/${toolImage.trim()}`}
+                        src={`./image/skills/${toolImage.trim()}`}
                       />
                     ))}
                   </div>

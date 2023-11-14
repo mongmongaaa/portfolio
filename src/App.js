@@ -1,6 +1,6 @@
 
 import './reset.css';
-import {BrowserRouter, Route, Routes } from "react-router-dom"
+import {HashRouter, Route, Routes } from "react-router-dom"
 import {axios} from "axios"
 import Main from './page/Main';
 import Detail from './page/Detail';
@@ -8,7 +8,7 @@ import Detail from './page/Detail';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/portfolio">
+      <HashRouter >
     <main>
       <Routes>
         <Route path='/' element={<Main/>}/>
@@ -18,12 +18,12 @@ function App() {
     <footer>
       <div>
         <figure>
-          <img src='/image/soms_foot.png'/>
+          <img src='./image/soms_foot.png'/>
         </figure>
         <p>COPYRIGHT ⓒ 2023 LEEJIYOUNG. ALL RIGHTS RESERVED.</p>
       </div>
     </footer>
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 }
