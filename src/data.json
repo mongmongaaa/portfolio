@@ -25,15 +25,15 @@
   },
   {
     "id": "3",
-    "thumbnail": "test_img.jpg",
-    "title": "EDITING",
-    "category": "EDITING",
-    "date": "2023.04.02.25-2032.25.65",
-    "percent": "100%",
-    "tool": "ai",
-    "text": "",
-    "giturl": "",
-    "detail_img": ""
+    "thumbnail": "Portfolio_Thumbnail_3.jpg",
+    "title": "서울식물원",
+    "category": "UIUX",
+    "date": "2023.07.24-2023.08.25",
+    "percent": " 6인 팀프로젝트 디자인 95% _ 코딩 20%",
+    "tool": "Logo_1.png,Logo_2.png,Logo_7.png,Html_1.png,Html_2.png,Html_4.png,Html_5.png,Html_6.png",
+    "text": "기존의 로고 및 아이콘을 활용하였으며,필요하다고 느낀 이미지 및 아이콘과 패턴을 기존의 브랜드와 유연하게 어울릴 수 있도록 추가로 제작해 보았습니다. 코딩 작업을 하면서 반응형 웹, 모바일의 전반적인 디자인을 어우러질 수 있도록 TO-BE에 맞추어 리뉴얼해 보았습니다.",
+    "giturl": "https://github.com/mongmongaaa/SEOULBOTANICPARK.git",
+    "detail_img": "Portfolio_page_3.jpg"
   },
   {
     "id": "4",
