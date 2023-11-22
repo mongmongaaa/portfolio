@@ -28,6 +28,9 @@ function Main() {
 
   //스크롤 코드
 
+
+  
+
   return (
     <div>
       <nav>

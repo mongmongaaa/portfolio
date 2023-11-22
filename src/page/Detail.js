@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import jsonData from "../data.json";
 import "../style/detail.scss";
@@ -11,51 +11,58 @@ function Detail() {
 
   const [ScrollY, setScrollY] = useState(0);
   const [BtnStatus, setBtnStatus] = useState(false); // 버튼 상태
-  
+
   const handleFollow = () => {
     setScrollY(window.pageYOffset);
-    if(ScrollY > 100) {
+    if (ScrollY > 100) {
       // 100 이상이면 버튼이 보이게
       setBtnStatus(true);
     } else {
       // 100 이하면 버튼이 사라지게
       setBtnStatus(false);
     }
-  }
+  };
 
-  const handleTop = () => {  // 클릭하면 스크롤이 위로 올라가는 함수
+  const handleTop = () => {
+    // 클릭하면 스크롤이 위로 올라가는 함수
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
-    setScrollY(0);  // ScrollY 의 값을 초기화
+    setScrollY(0); // ScrollY 의 값을 초기화
     setBtnStatus(false); // BtnStatus의 값을 false로 바꿈 => 버튼 숨김
-  }
+  };
 
   useEffect(() => {
     const watch = () => {
-      window.addEventListener('scroll', handleFollow)
-    }
+      window.addEventListener("scroll", handleFollow);
+    };
     watch();
     return () => {
-      window.removeEventListener('scroll', handleFollow)
-    }
-  })
+      window.removeEventListener("scroll", handleFollow);
+    };
+  });
   console.log(selectedItem);
 
   return (
     <>
-      <button className={BtnStatus ? "topBtn active" : "topBtn"} // 버튼 노출 여부
-        onClick={handleTop}>TOP</button>
+      <button
+        className={BtnStatus ? "topBtn active" : "topBtn"} // 버튼 노출 여부
+        onClick={handleTop}
+      >
+        TOP
+      </button>
       {selectedItem ? (
         <div className="allcontents_2">
           <div className="inner_2">
             <div className="box">
               <div className="right">
-                <div className="thum_img">
-                  <img src={`./image/${selectedItem.thumbnail}`} />
-                  {selectedItem.giturl && <p>git 바로가기</p>}
-                </div>
+                <a className="thum_img">
+                  <img src={`./image/Work/${selectedItem.thumbnail}`} />
+                  {selectedItem.giturl && (
+                    <a href={selectedItem.giturl}>git 바로가기</a>
+                  )}
+                </a>
                 {/* {selectedItem.giturl && <p>git 바로가기</p>} */}
               </div>
               <ul className="left">
@@ -83,7 +90,9 @@ function Detail() {
               </ul>
             </div>
             <hr />
-            <div className="detail_img">{selectedItem.detail_img}</div>
+            <div className="detail_img">
+              <img src={`./image/Work/${selectedItem.detail_img}`} />
+            </div>
             <div className="qr_img">{selectedItem.qr_img}</div>
           </div>
         </div>
