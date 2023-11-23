@@ -27,7 +27,7 @@ nav {
   .section_1 {
     width: 100%;
     background: #fffdc1;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     position: relative;
@@ -70,7 +70,7 @@ nav {
   .section_2 {
     width: 100%;
     background: #defdff;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     position: relative;
@@ -178,7 +178,7 @@ nav {
   .section_3 {
     position: relative;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #e0ffc1;
     .pattern {
       width: 100%;
@@ -567,7 +567,7 @@ nav {
     .section_1 {
       width: 100%;
       background: #fffdc1;
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       align-items: center;
       position: relative;
@@ -610,7 +610,7 @@ nav {
     .section_2 {
       width: 100%;
       background: #defdff;
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       justify-content: center;
       position: relative;
@@ -719,7 +719,7 @@ nav {
     .section_3 {
       position: relative;
       width: 100%;
-      height: 100vh;
+      min-height: 100vh;
       background-color: #e0ffc1;
       .pattern {
         width: 100%;
@@ -1099,7 +1099,7 @@ nav {
     .section_1 {
       width: 100%;
       background: #fffdc1;
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       align-items: center;
       position: relative;
@@ -1142,7 +1142,7 @@ nav {
     .section_2 {
       width: 100%;
       background: #defdff;
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       justify-content: center;
       position: relative;
@@ -1256,7 +1256,7 @@ nav {
     .section_3 {
       position: relative;
       width: 100%;
-      height: 100vh;
+      min-height: 100vh;
       background-color: #e0ffc1;
       padding-bottom: 60%;
       .pattern {
