@@ -1,27 +1,27 @@
 [
   {
     "id": "1",
-    "thumbnail": "test_img.jpg",
-    "title": "UIUX",
+    "thumbnail": "Portfolio_Thumbnail_1.jpg",
+    "title": "제제픽",
     "category": "UIUX",
-    "date": "2023.04.02.25-2032.25.65",
-    "percent": "100%",
-    "tool": "dd",
-    "text": "aaaaaaaaaaaaaaaaaaaa",
-    "giturl": "dfsdfsfd",
-    "detail_img": ""
+    "date": "2023.07.24-2023.08.25",
+    "percent": "[6인 팀프로젝트] 디자인 100% _ 코딩 20%",
+    "tool": "Logo_1.png,Logo_2.png,Logo_7.png,Html_1.png,Html_2.png,Html_3.png,Html_4.png,Html_5.png,Html_6.png,Html_7.png",
+    "text": "제주도 여행계획을 세울 때 자신이 좋아할만한 목적지를 찾는데 많은 시간이 소요. 사용자의 여행 성향을 파악 후 여행지를 추천해주면 어떨까? 라는 생각으로 해당 앱을 제안해보았습니다.",
+    "giturl": "https://github.com/mongmongaaa/JEJEPICK.git",
+    "detail_img": "Portfolio_page_1.jpg"
   },
   {
     "id": "2",
-    "thumbnail": "Portfolio_Thumbnail_3.jpg",
-    "title": "BRANDING",
-    "category": "BRANDING",
-    "date": "2023.04.02.25-2032.25.65",
-    "percent": "100%",
-    "tool": "Logo_1.png,Logo_2.png",
-    "text": "sdfsadfsffasdsfdafsda",
-    "giturl": "sdfdsffds",
-    "detail_img": "Portfolio_page_3.jpg"
+    "thumbnail": "Portfolio_Thumbnail_2.jpg",
+    "title": "메디포켓",
+    "category": "UIUX",
+    "date": "2023.11.16",
+    "percent": "[4인 팀프로젝트] 디자인 100% _ 코딩 20%",
+    "tool": "Logo_1.png,Logo_2.png,Logo_7.png,Html_1.png,Html_2.png,Html_3.png,Html_4.png,Html_5.png,Html_6.png,Html_7.png",
+    "text": "병원을 방문할 때 아팠던 증상 또는 복용했던 약들을 의사에게 보여줌으로써 간편한 진료와 처방전을 기록 할 수 있고, 사용자가 복용하는 약들의 정보를 볼 수 있는 앱 입니다.",
+    "giturl": "",
+    "detail_img": "Portfolio_page_2.jpg"
   },
   {
     "id": "3",
@@ -31,8 +31,8 @@
     "date": "2023.07.24-2023.08.25",
     "percent": "[6인 팀프로젝트] 디자인 95% _ 코딩 20%",
     "tool": "Logo_1.png,Logo_2.png,Logo_7.png,Html_1.png,Html_2.png,Html_3.png,Html_4.png,Html_5.png,Html_6.png",
-    "text": "기존의 로고 및 아이콘을 활용하였으며,필요하다고 느낀 이미지 및 아이콘과 패턴을 기존의 브랜드와 유연하게 어울릴 수 있도록 추가로 제작해 보았습니다. 코딩 작업을 하면서 반응형 웹, 모바일의 전반적인 디자인을 어우러질 수 있도록 TO-BE에 맞추어 리뉴얼해 보았습니다.",
-    "giturl": "",
+    "text": "서울 식물원의 기존의 로고 및 아이콘을 활용하였으며,필요하다고 느낀 이미지 및 아이콘과 패턴을 기존의 브랜드와 유연하게 어울릴 수 있도록 추가로 제작해 보았습니다. 코딩 작업을 하면서 반응형 웹, 모바일의 전반적인 디자인을 어우러질 수 있도록 TO-BE에 맞추어 리뉴얼해 보았습니다.",
+    "giturl": "https://github.com/mongmongaaa/SEOULBOTANICPARK.git",
     "detail_img": "Portfolio_page_3.jpg"
   },
   {
